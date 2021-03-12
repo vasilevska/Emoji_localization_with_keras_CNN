@@ -223,11 +223,11 @@ test(model)
 
 _= model.fit(
     data_generator(),
-    epochs = 50,
+    epochs = 100,
     steps_per_epoch = 500,
     callbacks = [
                  ShowTestImages(),
-                 tf.keras.callbacks.EarlyStopping(monitor = 'box_out_iou', patience = 50, mode = 'max'),
+                 tf.keras.callbacks.EarlyStopping(monitor = 'box_out_iou', patience = 100, mode = 'max'),
                  tf.keras.callbacks.LearningRateScheduler(lr_schedule)
     ]
 )
