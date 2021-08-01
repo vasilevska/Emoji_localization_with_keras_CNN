@@ -1,4 +1,4 @@
-Emoji classification and location from set of 9 emojis from https://github.com/hfg-gmuend/openmoji/releases/latest/download/openmoji-72x72-color.zip
+Emoji classification and localization from set of 9 emojis from https://github.com/hfg-gmuend/openmoji/releases/latest/download/openmoji-72x72-color.zip
 
 Epoch 100: 500 steps - 19ms/step - loss: 0.1695 - class_out_loss: 0.0877 - box_out_loss: 0.0818 - class_out_accuracy: 0.9745 - box_out_iou: 1.0167
 
